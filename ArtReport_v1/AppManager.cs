@@ -87,12 +87,10 @@ namespace ArtReport_v1
                     return category.CalculateOverallHours();
                 }
             }
-            
-            
+             
             
             return -1;
         }
-
 
 
         public void LoadCategories()

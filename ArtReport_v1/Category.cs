@@ -75,7 +75,7 @@ namespace ArtReport_v1
                 overallPercent *= course.GetPercentDone();
             }
 
-            return overallPercent;
+            return overallPercent/100;
         }
 
         public int CalculateOverallHours()

@@ -11,6 +11,9 @@ namespace ArtReport_v1
         //access modifiers - public / private / protected
         private string artworkName;
         private string medium; //may have to change to a list
+
+        //private readonly List<string> READONLY 
+
         private int timeSpent;
         private string notes;
         private string artworkImage;
@@ -31,9 +34,7 @@ namespace ArtReport_v1
         //methods
 
 
-        
-
-
+       
 
 
         //getter and setter methods
